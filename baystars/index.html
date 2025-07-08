@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPB監督情報</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <h1>プロ野球監督情報</h1>
+        <p>監督の詳細ページをご覧いただけます。</p>
+    </header>
+
+    <!-- プルダウンメニューで選手を選択 -->
+    <section id="player-selection">
+        <h2>監督を選んで公式ページへ</h2>
+        <select id="player-dropdown">
+            <option value="">監督を選択</option>
+            <!-- 選手のオプションがここに追加されます -->
+        </select>
+        <button onclick="goToPlayerPage()">選択した監督ページへ</button>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2025 NPB監督情報. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
